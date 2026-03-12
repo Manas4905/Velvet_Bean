@@ -910,10 +910,8 @@ footer {
   border-top: 1px solid rgba(201, 169, 122, 0.15);
   padding-top: 2rem;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
-  justify-content: space-between;
-  align-items: center;
 }
 .footer-bottom p {
   font-size: 0.82rem;
