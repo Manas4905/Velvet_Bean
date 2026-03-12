@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velvet Bean — Specialty Coffee</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <a href="#" class="logo">
+          <div class="logo-icon"></div>
+          Velvet Bean
+        </a>
+        <ul class="nav-links">
+          <li><a href="#features">Our Craft</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#story">Story</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#menu" class="nav-cta">Order Now</a></li>
+        </ul>
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </label>
+      </div>
+    </nav>
+
+    <div class="mobile-menu">
+      <a href="#features" class="first-nav">Our Craft</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#menu" class="nav-cta">Order Now</a>
+    </div>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="tag">Est. 2015 · Specialty Roasters</span>
+        <h1 class="hero-title">Where Every Cup<br />Tells a <em>Story</em></h1>
+        <p class="hero-body">
+          Hand-sourced single-origin beans, roasted in small batches and crafted
+          by our artisan baristas. Taste the difference that passion makes.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn-primary"
+            >Explore the Menu
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#story" class="btn-ghost"
+            >Our Story
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="cup-wrapper">
+          <div class="steam">
+            <div class="steam-line"></div>
+            <div class="steam-line"></div>
+            <div class="steam-line"></div>
+          </div>
+          <svg
+            class="cup-svg"
+            viewBox="0 0 200 220"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <ellipse
+              cx="100"
+              cy="200"
+              rx="80"
+              ry="12"
+              fill="#5C3317"
+              opacity=".6"
+            />
+            <ellipse cx="100" cy="197" rx="72" ry="9" fill="#8B5E3C" />
+            <path
+              d="M45 100 Q40 170 60 185 Q100 195 140 185 Q160 170 155 100 Z"
+              fill="#C9A97A"
+            />
+            <ellipse cx="100" cy="100" rx="55" ry="10" fill="#DFB97A" />
+            <ellipse cx="100" cy="101" rx="48" ry="8" fill="#3D1E0A" />
+            <path
+              d="M82 101 Q100 95 118 101 Q100 107 82 101Z"
+              fill="#C9A97A"
+              opacity=".7"
+            />
+            <circle cx="100" cy="101" r="3" fill="#C9A97A" opacity=".5" />
+            <path
+              d="M155 115 Q185 115 185 140 Q185 165 155 165"
+              stroke="#B8946A"
+              stroke-width="8"
+              stroke-linecap="round"
+              fill="none"
+            />
+            <path
+              d="M58 115 Q55 155 65 175"
+              stroke="white"
+              stroke-width="3"
+              stroke-linecap="round"
+              opacity=".2"
+            />
+          </svg>
+        </div>
+        <div class="hero-badge">
+          <strong>4.9&#9733;</strong>Rated by 2,400+ customers
+        </div>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="container stats-grid">
+        <div class="stat">
+          <div class="stat-num">18+</div>
+          <div class="stat-label">Origins Sourced</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">400k</div>
+          <div class="stat-label">Cups Served</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">12</div>
+          <div class="stat-label">Roast Profiles</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">8</div>
+          <div class="stat-label">Locations</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Why Velvet Bean</span>
+          <h2 class="section-title">
+            Crafted with Purpose,<br />Served with Love
+          </h2>
+          <p class="section-sub">
+            Every detail from bean to cup is obsessed over so you get nothing
+            less than extraordinary.
+          </p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">&#127807;</div>
+            <h3 class="feature-title">Ethically Sourced</h3>
+            <p class="feature-body">
+              Direct trade with farmers across Ethiopia, Colombia, and
+              Guatemala. Every bean is a story of fair pay and sustainable land.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#128293;</div>
+            <h3 class="feature-title">Small-Batch Roasting</h3>
+            <p class="feature-body">
+              12 kg runs per batch unlock each origin's unique character. Fresh.
+              Never warehoused. Always vibrant.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#9749;</div>
+            <h3 class="feature-title">Expert Baristas</h3>
+            <p class="feature-body">
+              Our team trains 200+ hours before pulling a shot. Every pour
+              dialled with precision temperature, pressure, and timing.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#127811;</div>
+            <h3 class="feature-title">Zero-Waste Ambition</h3>
+            <p class="feature-body">
+              Compostable packaging, reusable cup discounts, and spent-grounds
+              composting — because the planet deserves good coffee too.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Our Menu</span>
+          <h2 class="section-title">Find Your Perfect Brew</h2>
+          <p class="section-sub">
+            Seasonal specials alongside all-day classics — there is a cup for
+            every moment.
+          </p>
+        </div>
+        <div class="menu-tabs">
+          <input
+            type="radio"
+            name="menu-tab"
+            id="tab-all"
+            class="tab-input"
+            checked
+          />
+          <input
+            type="radio"
+            name="menu-tab"
+            id="tab-espresso"
+            class="tab-input"
+          />
+          <input type="radio" name="menu-tab" id="tab-cold" class="tab-input" />
+          <input
+            type="radio"
+            name="menu-tab"
+            id="tab-seasonal"
+            class="tab-input"
+          />
+          <input
+            type="radio"
+            name="menu-tab"
+            id="tab-pastries"
+            class="tab-input"
+          />
+          <label for="tab-all" class="tab">All</label>
+          <label for="tab-espresso" class="tab">Espresso</label>
+          <label for="tab-cold" class="tab">Cold Brew</label>
+          <label for="tab-seasonal" class="tab">Seasonal</label>
+          <label for="tab-pastries" class="tab">Pastries</label>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/flat_white.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Velvet Flat White</h3>
+              <p class="product-desc">
+                Double ristretto, silky micro-foam. Our signature daily ritual.
+              </p>
+              <div class="product-footer">
+                <span class="price">&#8377;320</span
+                ><span class="add-btn">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/cold-brew.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Cold Brew Reserve</h3>
+              <p class="product-desc">
+                18-hour steep, Ethiopian Yirgacheffe. Bold, smooth, zero
+                bitterness.
+              </p>
+              <div class="product-footer">
+                <span class="price">&#8377;380</span
+                ><span class="add-btn">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/rose-cortado.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Rose Cortado</h3>
+              <p class="product-desc">
+                Equal parts espresso and steamed milk with a hint of rose water.
+              </p>
+              <div class="product-footer">
+                <span class="price">&#8377;350</span
+                ><span class="add-btn">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/honey-latte.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Honey Latte</h3>
+              <p class="product-desc">
+                Raw wildflower honey, single-origin espresso, oat milk foam.
+              </p>
+              <div class="product-footer">
+                <span class="price">&#8377;360</span
+                ><span class="add-btn">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/yuzu-tonic.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Yuzu Espresso Tonic</h3>
+              <p class="product-desc">
+                Fresh yuzu, sparkling tonic, double espresso over ice.
+              </p>
+              <div class="product-footer">
+                <span class="price">&#8377;410</span
+                ><span class="add-btn">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/almond-croissant.png" alt="" />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Almond Croissant</h3>
+              <p class="product-desc">
+                House-made frangipane, twice-baked, crunchy sugar top.
+              </p>
+              <div class="product-footer">
+                <span class="price">&#8377;310</span
+                ><span class="add-btn">+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="container story-inner">
+        <div class="story-image-wrap">
+          <img src="images/first_roastary.png" alt="" />
+          <span class="story-caption">Our roastery — Bengaluru, 2015</span>
+        </div>
+        <div class="story-text">
+          <span class="tag story-tag">Our Story</span>
+          <h2 class="story-title">
+            Born From a Single Obsession: the Perfect Cup
+          </h2>
+          <p class="story-body">
+            In 2015, founder Arjun Mehta left a corporate career armed with a
+            hand-grinder, a moka pot, and an insatiable curiosity. After months
+            in the Ethiopian highlands and Colombian mountains, Velvet Bean was
+            born in a 200 sq ft Bengaluru garage.
+          </p>
+          <p class="story-body">
+            Today we operate 8 locations across India — but every roast is still
+            done in-house, every batch tasted by our team, and every cup served
+            with the same obsessive care.
+          </p>
+          <div class="perks">
+            <div class="perk">
+              <div class="perk-dot"></div>
+              Direct trade with 14 farming families
+            </div>
+            <div class="perk">
+              <div class="perk-dot"></div>
+              SCA-certified roasters &amp; baristas
+            </div>
+            <div class="perk">
+              <div class="perk-dot"></div>
+              Roasted-to-order subscription available
+            </div>
+            <div class="perk">
+              <div class="perk-dot"></div>
+              100% compostable in-store packaging
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Guests Say</span>
+          <h2 class="section-title">Words Brewed with Warmth</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="review-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              The Honey Latte is unlike anything I have tasted. You can feel the
+              quality in every sip — this is what specialty coffee should be.
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">&#128105;</div>
+              <div>
+                <div class="reviewer-name">Priya Sharma</div>
+                <div class="reviewer-loc">Mumbai</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              I have been to coffee shops across 12 countries. Velvet Bean's
+              Cold Brew Reserve rivals the best I have ever had — the vibe is
+              immaculate.
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">&#128104;</div>
+              <div>
+                <div class="reviewer-name">Rohan Das</div>
+                <div class="reviewer-loc">Bengaluru</div>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">
+              The subscription is a game-changer. Fresh beans every two weeks
+              with a roast notes card — it turned me into a home-brewing
+              convert.
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">&#128105;</div>
+              <div>
+                <div class="reviewer-name">Anika Patel</div>
+                <div class="reviewer-loc">Delhi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="cta">
+      <div class="container cta-inner">
+        <span class="tag cta-tag">Stay Connected</span>
+        <h2 class="cta-title">Get <em>10% off</em> Your First Order</h2>
+        <p class="cta-body">
+          Join our newsletter for exclusive roast drops, brew guides, and early
+          access to seasonal menus.
+        </p>
+        <div class="cta-form">
+          <input type="email" placeholder="your@email.com" />
+          <button type="submit">Claim Offer</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo footer-logo">
+              <div class="logo-icon logo-icon-light"></div>
+              Velvet Bean
+            </a>
+            <p class="footer-desc">
+              Small-batch specialty coffee roasted with purpose. Sourced
+              directly. Served with love.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#story">Our Story</a></li>
+              <li><a href="#features">Craft</a></li>
+              <li><a href="#">Subscriptions</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Visit</h4>
+            <ul>
+              <li><a href="#">Bengaluru</a></li>
+              <li><a href="#">Mumbai</a></li>
+              <li><a href="#">Delhi</a></li>
+              <li><a href="#">Pune</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter / X</a></li>
+              <li><a href="#">YouTube</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&#169; 2026 Velvet Bean Coffee Co. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.getElementById("nav-toggle");
+      document.querySelectorAll(".mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navToggle.checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>
